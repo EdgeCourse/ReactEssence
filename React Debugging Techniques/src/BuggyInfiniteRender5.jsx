@@ -1,4 +1,4 @@
-const BuggyInfiniteRender5 = () => {
+export const BuggyInfiniteRender5 = () => {
   const [data, setData] = useState(null);
   const [count, setCount] = useState(0);
   
