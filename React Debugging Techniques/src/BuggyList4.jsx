@@ -1,4 +1,4 @@
-const BuggyList4 = () => {
+export const BuggyList4 = () => {
   const [items, setItems] = useState(['apple', 'banana']);
   
   const addItem = () => {
