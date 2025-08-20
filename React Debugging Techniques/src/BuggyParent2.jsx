@@ -1,4 +1,4 @@
-const BuggyParent2 = () => {
+export const BuggyParent2 = () => {
   const userData = { name: "John", age: 25 };
   // BUG: Passing object as 'user' prop, but child expects 'name' and 'age'
   return <ChildComponent user={userData} />;
