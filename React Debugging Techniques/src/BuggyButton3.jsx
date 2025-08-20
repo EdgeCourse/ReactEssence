@@ -1,4 +1,4 @@
-const BuggyButton3 = () => {
+export const BuggyButton3 = () => {
   const [count, setCount] = useState(0);
   
   return (
